@@ -33,7 +33,7 @@ header > h1 {
     font-variant: small-caps;
     font-family: var(--fonte2);
     letter-spacing: 2px;
-    font-size: 6.5Vw;
+    font-size: 6.5vw;
 }
 
 header > p {
@@ -79,7 +79,7 @@ section.imagem {
 
 section.imagem > p {
     width: 400px;
-    max-width: 100%;
+    max-width: calc(100% - 10px)
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.541);
