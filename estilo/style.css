@@ -53,8 +53,9 @@ header a:hover, footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-right: 20px;
+    padding-left: 20px;
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte3);
     font-weight: bolder;
     font-size: 2em;
@@ -80,8 +81,7 @@ section.imagem {
 section.imagem > p {
     width: 400px;
     max-width: calc(100% - 10px)
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.507);
+    backgound-color: rgba(0, 0, 0, 0.507);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.541);
 }
 
