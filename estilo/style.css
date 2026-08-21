@@ -14,6 +14,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -50,14 +51,9 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 700px) {
-    
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-right: 20px;
     padding-left: 20px;
     line-height: 2em;
     font-family: var(--fonte3);
@@ -84,7 +80,8 @@ section.imagem {
 
 section.imagem > p {
     width: 400px;
-    max-width: calc(100% - 10px)
+    max-width: calc(100% - 10px);
+    padding: 5px;
     backgound-color: rgba(0, 0, 0, 0.507);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.541);
 }
